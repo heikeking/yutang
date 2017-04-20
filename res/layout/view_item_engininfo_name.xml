@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_item_engineinfo_ll"
+    xmlns:smartImageView="http://schemas.android.com/apk/res/com.itteam.yutang"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/expand_bg" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left" >
+			<com.yzh.android.view.ScaleBitmapView
+                android:id="@+id/status_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/status_tv"
+                android:layout_alignTop="@+id/status_tv"
+                android:adjustViewBounds="true"
+                smartImageView:imgname="@drawable/lamp_yellow"
+        		smartImageView:scalesize="0.35" />
+            <TextView
+                android:id="@+id/status_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/status_img"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="在线" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right" >
+
+            <com.yzh.android.view.ScaleBitmapView
+                android:id="@+id/warning_img"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                smartImageView:imgname="@drawable/warning_red"
+        		smartImageView:scalesize="2" />
+
+            <TextView
+                android:id="@+id/warning_tv"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/warning_img"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="警告:12222" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

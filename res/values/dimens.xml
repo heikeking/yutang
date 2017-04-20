@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dot_width">8dp</dimen>
+    <dimen name="dot_height">8dp</dimen>
+    <dimen name="dot_padding">5dp</dimen>
+    
+    <dimen name="nativate_tab_padding_drawable">10dp</dimen>
+    <dimen name="nativate_tab_padding_up">5dp</dimen>
+
+    
+    <dimen name="three_grid_unit">10dp</dimen>
+    <dimen name="one_and_a_half_grid_unit">12dp</dimen>
+</resources>

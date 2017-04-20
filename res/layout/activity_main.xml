@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:myview="http://schemas.android.com/apk/res/com.itteam.yutang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/tab_bg"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/tab_bg"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <com.yzh.android.view.RadioButton
+                android:id="@+id/home"
+                style="@style/main_tab_bottom"
+                android:checked="true"
+                android:drawableTop="@drawable/home_drawable"
+                android:text="@string/home"
+                myview:top_height="30dp"
+                myview:top_width="30dp" />
+
+            <com.yzh.android.view.RadioButton
+                android:id="@+id/tangkou"
+                style="@style/main_tab_bottom"
+                android:drawableTop="@drawable/tangkou_drawable"
+                android:text="@string/tangkou"
+                myview:top_height="30dp"
+                myview:top_width="30dp" />
+
+            <com.yzh.android.view.RadioButton
+                android:id="@+id/rizhi"
+                style="@style/main_tab_bottom"
+                android:drawableTop="@drawable/rizhi_drawable"
+                android:text="@string/rizhi"
+                myview:top_height="30dp"
+                myview:top_width="30dp" />
+            <com.yzh.android.view.RadioButton
+                android:id="@+id/more"
+                style="@style/main_tab_bottom"
+                android:drawableTop="@drawable/mydrawableww"
+                android:text="@string/more"
+                myview:top_height="30dp"
+                myview:top_width="30dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/tab"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/bottom">
+
+    </FrameLayout>
+
+</RelativeLayout>

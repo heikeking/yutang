@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/feedback_et"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:background="@null"
+        android:gravity="left|top"
+        android:hint="谈谈你的想法..."
+        android:text="" >
+    </EditText>
+
+</LinearLayout>

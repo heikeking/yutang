@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom2="http://schemas.android.com/apk/res/com.itteam.yutang"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <TextView
+        android:textSize="15sp"
+        android:id="@+id/name"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="left|center_vertical"
+        android:text="TextView" />
+
+    <com.yzh.android.view.EditTextWithDeleteButton
+        android:layout_weight="1"
+        android:id="@+id/editTextWithDeleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/textfield_bg"
+        android:ems="10"
+        android:orientation="horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="10sp"
+        android:visibility="visible"
+        android:focusable="false"
+        custom2:deleteButtonRes="@drawable/text_field_clear_btn"
+        custom2:edittextcolor="@color/edit_text" >
+    </com.yzh.android.view.EditTextWithDeleteButton>
+
+    <TextView
+        android:textSize="15sp"
+        android:id="@+id/name_duliang"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="TextView" />
+
+</LinearLayout>

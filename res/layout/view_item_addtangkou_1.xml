@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/addtangkou_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/addtangkou_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:background="@null"
+        android:hint="55555"
+        android:layout_toRightOf="@+id/addtangkou_name" >
+    </EditText>
+
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="2dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/addtangkou_name"
+	    android:layout_marginTop="5dp"
+	    android:background="#e7e7e7" />
+
+</RelativeLayout>

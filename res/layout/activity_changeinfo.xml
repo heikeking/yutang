@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gap_bg"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/gap_bg" />
+
+    <RelativeLayout
+        android:id="@+id/username_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/my_changeinfo_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:text="用户名:" />
+
+        <TextView
+            android:id="@+id/my_changeinfo_username2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/my_changeinfo_username"
+            android:layout_alignBottom="@+id/my_changeinfo_username"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="19dp"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/moreicon" />
+
+    </RelativeLayout>
+
+   <!--  <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/gap_bg" />
+
+    <RelativeLayout
+        android:id="@+id/sex_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/my_changeinfo_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:text="性别:" />
+
+        <TextView
+            android:id="@+id/my_changeinfo_sex2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/my_changeinfo_sex"
+            android:layout_alignBottom="@+id/my_changeinfo_sex"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="19dp"
+            android:text="男" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/moreicon" />
+
+    </RelativeLayout> -->
+
+    <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/gap_bg" />
+
+   <RelativeLayout
+       	android:id="@+id/phone_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/my_changeinfo_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:text="手机号:" />
+
+        <TextView
+            android:id="@+id/my_changeinfo_phone2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/my_changeinfo_phone"
+            android:layout_alignBottom="@+id/my_changeinfo_phone"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="19dp"
+            android:text="修改" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/moreicon" />
+
+    </RelativeLayout> -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/gap_bg" />
+
+    <RelativeLayout
+        android:id="@+id/changepassword_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/my_changeinfo_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:text="修改密码:" />
+
+        <TextView
+            android:id="@+id/my_changeinfo_password2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/my_changeinfo_password"
+            android:layout_alignBottom="@+id/my_changeinfo_password"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="19dp"
+            android:text="修改" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/moreicon" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="此模块为增值服务模块，如有需求请拨打15189291632咨询详情。"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:padding="50dp"/>
+   
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="渔虾乐"
+        android:textSize="20dp"
+        android:textColor="#24bcff"
+        android:gravity="center"
+        android:padding="50dp"/>
+    
+
+</LinearLayout>

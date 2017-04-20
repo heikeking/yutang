@@ -1,0 +1,10 @@
+package com.yzh.android.tools;
+
+/**
+ * 日志工具类
+ * @version 1.0
+ *
+ */
+public class ToolLog {
+
+}

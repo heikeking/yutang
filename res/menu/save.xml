@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tools.toolsdemo.MainActivity" >
+
+    <item
+        android:id="@+id/save"
+        android:checkable="true"
+        android:enabled="true"
+        android:orderInCategory="10"
+        android:showAsAction="ifRoom"
+        android:title="完成"/>
+
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/fragment_settings_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="模式切换"
+            android:textSize="15sp" />
+
+        <RadioGroup
+            android:id="@+id/fragment_settings_rg"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_margin="10dip"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rb_shoudong"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingBottom="6dip"
+                android:paddingTop="6dip"
+                android:text="手动"
+                android:background="@drawable/rb_bg_01"
+                android:textColor="@drawable/title_text_sel"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/rb_zidong"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rb_bg_02"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="6dip"
+                android:paddingTop="6dip"
+                android:text="自动"
+                android:textColor="@drawable/title_text_sel"
+                android:textSize="14sp" />
+        </RadioGroup>
+    </RelativeLayout>
+</LinearLayout>

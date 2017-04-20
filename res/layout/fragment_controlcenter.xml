@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+	<com.yzh.android.view.CustomListView
+        android:id="@+id/fragment_control_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.yzh.android.view.CustomListView>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/re"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/tips_et_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:layout_toRightOf="@+id/name" 
+        android:background="@null"
+        android:ems="10"
+        android:gravity="left|top"
+        android:hint="分享您的那点新鲜事儿..." >
+    </EditText>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignBottom="@+id/tips_et_detail"
+        android:layout_alignParentLeft="true"
+        android:background="@color/edit_text" />
+
+</RelativeLayout>

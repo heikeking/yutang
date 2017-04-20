@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res/com.itteam.yutang"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.yzh.android.view.SmartImageView
+        android:id="@+id/title_img_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:adjustViewBounds="true" />
+
+    <LinearLayout
+        android:id="@+id/account_li"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_img_rl"
+        android:layout_marginTop="17dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/rem_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_li"
+        android:scaleX="0.80"
+        android:scaleY="0.80"
+        android:text="@string/rem_loginstatus"
+        android:textColor="@color/main_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/forget_password_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rem_status"
+        android:layout_alignBottom="@+id/rem_status"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:scaleX="0.80"
+        android:scaleY="0.80"
+        android:text="@string/forget_password"
+        android:textColor="@color/main_color"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forget_password_tv"
+        android:padding="10dp" >
+
+        <com.yzh.android.view.FButton
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            fbutton:buttonColor="@color/main_color"
+            fbutton:cornerRadius="5dp"
+            fbutton:height_btn="0.08"
+            fbutton:shadowColor="@color/fbutton_color_asbestos"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp"
+            fbutton:width_btn="0.35" />
+
+        <com.yzh.android.view.FButton
+            android:id="@+id/regiter_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="23dp"
+            android:text="@string/register"
+            android:textColor="@color/main_color"
+            android:textStyle="bold"
+            fbutton:buttonColor="@color/grown_light"
+            fbutton:cornerRadius="5dp"
+            fbutton:height_btn="0.08"
+            fbutton:shadowColor="@color/fbutton_color_asbestos"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp"
+            fbutton:width_btn="0.35" />
+    </RelativeLayout>
+
+</RelativeLayout>

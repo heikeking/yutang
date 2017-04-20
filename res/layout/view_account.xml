@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom2="http://schemas.android.com/apk/res/com.itteam.yutang"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/fitImageView"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/accounticon" />
+
+    <com.yzh.android.view.EditTextWithDeleteButton
+        android:id="@+id/editTextWithDeleteButton"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/fitImageView"
+        android:layout_centerVertical="true"
+        android:background="@drawable/textfield_bg"
+        android:ems="10"
+        android:orientation="horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="10sp"
+        android:visibility="visible"
+        custom2:edittextcolor="@color/edit_text"
+        custom2:deleteButtonRes="@drawable/text_field_clear_btn" >
+    </com.yzh.android.view.EditTextWithDeleteButton>
+
+</RelativeLayout>

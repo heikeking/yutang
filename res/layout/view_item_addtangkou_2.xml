@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="42dp"
+    android:background="@color/white" >
+	<TextView
+        android:id="@+id/addtangkou_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="TextView"
+        android:layout_marginLeft="15dp"
+        android:textSize="18sp" />
+
+    <com.yzh.android.view.NiceSpinner_view
+        android:id="@+id/addtangkou_spinner2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/white" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/addtangkou_spinner2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#e7e7e7" />
+
+
+</RelativeLayout>

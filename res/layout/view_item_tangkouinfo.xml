@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tangkouinfo_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_centerVertical="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tangkouinfo_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:hint="55555"
+        android:textColor="@color/text_color"
+        android:layout_toRightOf="@+id/tangkouinfo_txt1" >
+    </TextView>
+
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="2dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/tangkouinfo_txt1"
+	    android:layout_marginTop="5dp"
+	    android:background="#e7e7e7" />
+
+</RelativeLayout>

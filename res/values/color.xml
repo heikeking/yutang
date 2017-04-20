@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="shadow_start">#80000000</color>
+    <color name="shadow_end">#00000000</color>
+    <color name="item_n">#ffffff</color>
+    <color name="item_p">#fafafa</color>
+    <color name="table_header">#d7d7d7</color>
+    <!-- table_fix_headers(end) -->
+
+
+    <!-- ZXing Android (start) -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#00000000</color>
+    <color name="capture_text_cover_bg">#99535353</color>
+    <color name="seek_bar_text">#fff6f6f6</color>
+
+    
+    
+    <color name="gray_bg">#fff0f0f0</color>
+    <color name="gray_split">#ffe6e6e6</color>
+    <color name="yellow_tip">#ffffbc4b</color>
+    <color name="main_color">#24bcff</color>
+    <color name="main_color_old">#eb4c1e</color>
+    <color name="main_color_blue">#24BCFF</color>
+	<color name="main_color_up">#585153</color>
+    <color name="main_gray">#585153</color>
+    <color name="hint_color">#a0a0a0</color>
+
+    <color name="longred">#eb2508</color>
+	<!--pullableview..start-->
+	<color name="light_blue">#6593cb</color>
+	<!--pullableview..end-->
+	
+	<color name="edit_text">#d4d4d4</color>
+	<color name="grown_light">#e6e6e6</color>
+	<color name="tab_bg">#eaeaea</color>
+	<color name="tab_text">#949494</color>
+	<color name="expand_bg">#f2f2f2</color>
+	
+	<color name="fbutton_default_color">#3eadeb</color>
+    <color name="fbutton_default_shadow_color">#ff3493c8</color>
+    <color name="fbutton_color_turquoise">#1abc9c</color>
+    <color name="fbutton_color_green_sea">#16a085</color>
+    <color name="fbutton_color_emerald">#2ecc71</color>
+    <color name="fbutton_color_nephritis">#27ae60</color>
+    <color name="fbutton_color_peter_river">#3498db</color>
+    <color name="fbutton_color_belize_hole">#2980b9</color>
+    <color name="fbutton_color_amethyst">#9b59b6</color>
+    <color name="fbutton_color_wisteria">#8e44ad</color>
+    <color name="fbutton_color_wet_asphalt">#34495e</color>
+    <color name="fbutton_color_midnight_blue">#2c3e50</color>
+    <color name="fbutton_color_sun_flower">#f1c40f</color>
+    <color name="fbutton_color_orange">#f39c12</color>
+    <color name="fbutton_color_carrot">#e67e22</color>
+    <color name="fbutton_color_pumpkin">#d35400</color>
+    <color name="fbutton_color_alizarin">#e74c3c</color>
+    <color name="fbutton_color_pomegranate">#c0392b</color>
+    <color name="fbutton_color_clouds">#ecf0f1</color>
+    <color name="fbutton_color_silver">#bdc3c7</color>
+    <color name="fbutton_color_concrete">#95a5a6</color>
+    <color name="fbutton_color_asbestos">#7f8c8d</color>
+    <color name="fbutton_color_transparent">@android:color/transparent</color>
+    
+    <color name="click_color">#0079ff</color>
+    <color name="white_drak">#D0EFFA</color>
+    <color name="green_ip">#43d551</color>
+    
+    <color name="gap_bg">#f0f0f0</color>
+</resources>
